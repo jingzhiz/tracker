@@ -1,0 +1,40 @@
+{
+  "name": "tracker",
+  "version": "1.0.0",
+  "description": "一款监听用户页面访问, DOM事件, JS代码报错的埋点SDK",
+  "types": "dist/index.d.ts",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "browser": "dist/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jingzhiz/tracker.git"
+  },
+  "keywords": [
+    "前端",
+    "埋点",
+    "tracker"
+  ],
+  "author": "",
+  "files": [
+    "dist"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jingzhiz/tracker/issues"
+  },
+  "homepage": "https://github.com/jingzhiz/tracker#readme",
+  "devDependencies": {
+    "rollup": "^4.5.0",
+    "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.2.2"
+  }
+}
