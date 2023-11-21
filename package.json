@@ -2,6 +2,7 @@
   "name": "tracker",
   "version": "1.0.0",
   "description": "一款监听用户页面访问, DOM事件, JS代码报错的埋点SDK",
+  "type": "module",
   "types": "dist/index.d.ts",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -11,7 +12,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup -c"
+    "build": "rollup --bundleConfigAsCjs -c"
   },
   "repository": {
     "type": "git",
